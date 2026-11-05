@@ -75,7 +75,7 @@ export const metadata: Metadata = {
       'Aesthetic dermatology, advanced wound care and wellness in Abu Dhabi, UAE.',
   },
   icons: {
-    icon: '/favicon.webp',
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/favicon.webp`,
   },
   robots: {
     index: true,
